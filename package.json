@@ -1,0 +1,6 @@
+{
+  "name": "financebro",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": { "test": "npm -w @financebro/core test", "typecheck": "npm -w @financebro/core run typecheck" }
+}
