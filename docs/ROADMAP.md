@@ -9,7 +9,11 @@ source management, Expo feed with story clusters (v1 trigram), entity gazetteer.
 
 **Phase 2 — Portfolio & Markets:** manual holdings/transactions, FRED/Yahoo/CoinGecko providers, P/L, allocation and exposure,
 markets glance + watchlists, news↔holding linking ("WHY?").
+Includes metals (Stooq) and crypto (CoinGecko) providers.
 *Exit:* an "NVDA +4.2%, why?" card with linked stories.
+
+**Phase 2b — Congressional trades:** House PDF and Senate eFD adapters, review queue for low-confidence parses, trades shown on holdings and in the Pulse as disclosed facts with filing lag.
+*Exit:* every trade row links to its official filing.
 
 **Phase 3 — Daily Pulse:** significance scoring, extractive-facts → interpretation pipeline, Pulse with evidence links, AI budget guard, push/email delivery.
 *Exit:* every Pulse line expands to sources; fact vs interpretation visibly separated.

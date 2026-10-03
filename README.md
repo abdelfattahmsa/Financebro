@@ -9,5 +9,7 @@ Answers three questions: **INVEST** (markets → my portfolio), **BUILD** (probl
 |---|---|
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Design: principles, pipeline, free-tier budget, fact/interpretation model, risks |
 | [docs/ROADMAP.md](docs/ROADMAP.md) | Phased build plan with exit criteria |
+| [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md) | Free sources for metals, crypto and congressional trades, with caveats |
 | [supabase/migrations/0001_core.sql](supabase/migrations/0001_core.sql) | Core Postgres schema (RLS on) |
+| [supabase/migrations/0002_metals_crypto_congress.sql](supabase/migrations/0002_metals_crypto_congress.sql) | Politicians and disclosed trades |
 | [packages/core](packages/core) | Shared `InformationItem` contract + deterministic normalize/dedupe |
